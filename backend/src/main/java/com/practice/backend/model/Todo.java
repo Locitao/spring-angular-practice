@@ -7,6 +7,8 @@ public class Todo {
     private int importance;
     private boolean status = false;
 
+    public Todo() {}
+
     public Todo(String nameOfPerson, String title, int importance) {
         this.nameOfPerson = nameOfPerson;
         this.title = title;
@@ -37,7 +39,7 @@ public class Todo {
         this.importance = importance;
     }
 
-    public boolean status() {
+    public boolean getStatus() {
         return status;
     }
 
