@@ -5,7 +5,7 @@ import {HttpClient} from '@angular/common/http';
 
 @Injectable()
 export class TodoService {
-  private baseUrl = 'http://localhost:8080';
+  private baseUrl = 'https://localhost:8443';
 
   constructor(private httpClient: HttpClient) { }
 
